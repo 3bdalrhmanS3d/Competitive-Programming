@@ -25,6 +25,7 @@ typedef pair<int, int> pairs;
 void fast (){ ios_base::sync_with_stdio (0); cin.tie (0); cout.tie (0); }
 struct person
 {
+    
     S s[100005] ;
     ll arr[1000055] ;
 };
