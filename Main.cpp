@@ -23,6 +23,9 @@ using namespace std;
 #define dec(x) fixed << setprecision(x)
 typedef pair<int, int> pairs;
 void fast (){ ios_base::sync_with_stdio (0); cin.tie (0); cout.tie (0); }
+ll fib( ll n ){if( n <= 1) { return n ; } return fib( n - 1) + fib( n - 2 ) ; } // n-1 
+ll gcd(ll a, ll b){ return a ? gcd(b % a, a) : b; }
+ll lcm(ll a, ll b){ return a / gcd(a, b) * b; }
 struct person
 {
     
